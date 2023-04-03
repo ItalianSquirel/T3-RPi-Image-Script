@@ -19,3 +19,11 @@ The install script will prompt you for your password (if needed) and then procee
 * and all the required NodeRed pallet nodes
 
 Note that the installation process may take some time depending on your internet connection and the speed of your computer.
+
+##Usage##
+
+Once the installation is complete, you can start using the T3 Alliance curriculum by following the instructions on our [website](makerpace.alaska.edu).
+
+##Contributing##
+
+If you would like to contribute to this project, please feel free to submit a pull request or open an issue on GitHub.

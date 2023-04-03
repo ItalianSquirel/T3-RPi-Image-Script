@@ -2,4 +2,4 @@
 
 ## Installation ##
 
-```bash <(curl -sL https://raw.githubusercontent.com/ItalianSquirel/T3-RPi-Image-Script/blob/main/installScript.sh)```
+```wget -O - https://raw.githubusercontent.com/ItalianSquirel/T3-RPi-Image-Script/blob/main/installScript.sh | bash```

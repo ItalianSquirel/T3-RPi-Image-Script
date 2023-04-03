@@ -1,8 +1,5 @@
-sudo apt-get install scratch3 thonny rpi-imager -y
+sudo apt-get install scratch3 thonny rpi-imager npm -y
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
-wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
-chmod +x pishrink.sh
-sudo mv pishrink.sh /usr/local/bin
 npm install node-red-contrib-bme280
 npm install node-red-contrib-camerapi
 npm install node-red-contrib-cpu

@@ -29,9 +29,6 @@ sudo apt-get install rpi-imager
 # install NPM
 sudo apt-get install npm
 
-# install VLC
-sudo apt-get install vlc
-
 # install Geany
 sudo apt-get install geany
 

@@ -11,7 +11,6 @@ This is an install script that automates the installation of all the required pr
 The install script will prompt you for your password (if needed) and then proceed to install the following programs and applications:
 
 * Python 3.8
-* Node.js 14
 * NodeRed
 * Scratch
 * RPi Imager

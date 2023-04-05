@@ -18,24 +18,22 @@ sudo apt-get install thonny
 sudo apt-get install python3 python3-pip
 
 # install NodeRed
-sudo npm install -g --unsafe-perm node-red
+sudo npm install -g --unsafe-perm node-red -y
 
 # install Scratch
-sudo apt-get install scratch
+sudo apt-get install scratch -y
 
 # install RPi Imager
-sudo apt-get install rpi-imager
+sudo apt-get install rpi-imager -y
 
 # install NPM
-sudo apt-get install npm
+sudo apt-get install npm -y
 
 # install Geany
-sudo apt-get install geany
+sudo apt-get install geany -y
 
 # Install all Required NodeRed Pallet Nodes
-npm install node-red-contrib-bme280 node-red-contrib-camerapi node-red-contrib-cpu node-red-contrib-dht-sensor node-red-contrib-easybotics-air-quality node-red-contrib-easybotics-ina219-sensor node-red-contrib-easybotics-pca9685 node-red-contrib-easybotics-vl53l0x node-red-contrib-hostip node-red-contrib-oled node-red-contrib-play-audio node-red-contrib-thingspeak42 node-red-dashboard node-red-node-pi-gpio node-red-node-pi-neopixel node-red-node-ping node-red-node-pisrf node-red-node-random node-red-node-serialport node-red-node-smooth random-generator_node-red-contrib
-
-
+npm install node-red-contrib-bme280 node-red-contrib-camerapi node-red-contrib-cpu node-red-contrib-dht-sensor node-red-contrib-easybotics-air-quality node-red-contrib-easybotics-ina219-sensor node-red-contrib-easybotics-pca9685 node-red-contrib-easybotics-vl53l0x node-red-contrib-hostip node-red-contrib-oled node-red-contrib-play-audio node-red-contrib-thingspeak42 node-red-dashboard node-red-node-pi-gpio node-red-node-pi-neopixel node-red-node-ping node-red-node-pisrf node-red-node-random node-red-node-serialport node-red-node-smooth random-generator_node-red-contrib -y
 
 # Change Wallpaper
 
@@ -50,8 +48,6 @@ pcmanfm --set-wallpaper=$WALLPAPER_PATH"wallpaper.jpg"
 
 # Refresh the desktop to show the new wallpaper
 pcmanfm -w /
-
-
 
 #Change Chromium Startup page
 

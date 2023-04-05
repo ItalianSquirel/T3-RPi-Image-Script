@@ -14,9 +14,6 @@ sudo apt-get install pishrink
 # install Thonny
 sudo apt-get install thonny
 
-# install Minecraft Pi edition
-sudo apt-get install minecraft-pi
-
 # install Python
 sudo apt-get install python3 python3-pip
 

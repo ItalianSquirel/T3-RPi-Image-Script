@@ -20,10 +20,6 @@ sudo apt-get install minecraft-pi
 # install Python
 sudo apt-get install python3 python3-pip
 
-# install Node.js
-curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt-get install -y nodejs
-
 # install NodeRed
 sudo npm install -g --unsafe-perm node-red
 

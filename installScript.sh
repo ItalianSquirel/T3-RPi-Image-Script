@@ -32,6 +32,9 @@ sudo apt-get install npm -y
 # install Geany
 sudo apt-get install geany -y
 
+# install xdotool
+sudo apt-get install xdotool -y
+
 # Install all Required NodeRed Pallet Nodes
 npm install node-red-contrib-bme280 node-red-contrib-camerapi node-red-contrib-cpu node-red-contrib-dht-sensor node-red-contrib-easybotics-air-quality node-red-contrib-easybotics-ina219-sensor node-red-contrib-easybotics-pca9685 node-red-contrib-easybotics-vl53l0x node-red-contrib-hostip node-red-contrib-oled node-red-contrib-play-audio node-red-contrib-thingspeak42 node-red-dashboard node-red-node-pi-gpio node-red-node-pi-neopixel node-red-node-ping node-red-node-pisrf node-red-node-random node-red-node-serialport node-red-node-smooth random-generator_node-red-contrib -y
 
@@ -97,6 +100,3 @@ xdotool key Return
 
 # close bookmarks manager
 xdotool key alt+f4
-
-
-

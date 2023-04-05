@@ -11,7 +11,7 @@ sudo apt-get install thonny -y
 sudo apt-get install python3 python3-pip -y
 
 # install NodeRed
-bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered) -y
 
 # install Scratch
 sudo apt-get install scratch -y
@@ -44,16 +44,16 @@ pcmanfm -w /
 
 #Change Chromium Startup page
 
-# Set the desired startup page URL
-url="https://t3alliance.org/"
 
-# Set the path to the Chromium preferences file
-preferences_file="/home/pi/.config/chromium/Default/Preferences"
+# Set the URL of the startup page
+URL="t3alliance.org"
 
-# Update the startup URL in the preferences file
-sed -i 's/"startup_urls":.*/"startup_urls": ["'"$url"'"],/' "$preferences_file"
+# Edit the preferences file to set the startup URL
+sudo sed -i "s/^\(.*\)startup_urls\": .*/\1startup_urls\": [\"$URL\"],/" /etc/chromium-browser/default
 
-echo "Chromium startup page changed to $url"
+# Restart the Chromium browser to apply the changes
+pkill chromium-browser
+
 
 
 

@@ -13,6 +13,8 @@ sudo apt-get install -y nodejs
 # Install npm
 sudo apt-get install -y npm
 
+sudo apt install build-essential git curl
+
 # Install Node-RED using npm
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 

@@ -45,24 +45,6 @@ sudo apt-get install vlc
 sudo apt-get install geany
 
 # Install all Required NodeRed Pallet Nodes
-npm install node-red-contrib-bme280
-npm install node-red-contrib-camerapi
-npm install node-red-contrib-cpu
-npm install node-red-contrib-dht-sensor
-npm install node-red-contrib-easybotics-air-quality
-npm install node-red-contrib-easybotics-ina219-sensor
-npm install node-red-contrib-easybotics-pca9685
-npm install node-red-contrib-easybotics-vl53l0x
-npm install node-red-contrib-hostip
-npm install node-red-contrib-oled
-npm install node-red-contrib-play-audio
-npm install node-red-contrib-thingspeak42
-npm install node-red-dashboard
-npm install node-red-node-pi-gpio
-npm install node-red-node-pi-neopixel
-npm install node-red-node-ping
-npm install node-red-node-pisrf
-npm install node-red-node-random
-npm install node-red-node-serialport
-npm install node-red-node-smooth
-npm install random-generator_node-red-contrib
+npm install node-red-contrib-bme280 node-red-contrib-camerapi node-red-contrib-cpu node-red-contrib-dht-sensor node-red-contrib-easybotics-air-quality node-red-contrib-easybotics-ina219-sensor node-red-contrib-easybotics-pca9685 node-red-contrib-easybotics-vl53l0x node-red-contrib-hostip node-red-contrib-oled node-red-contrib-play-audio node-red-contrib-thingspeak42 node-red-dashboard node-red-node-pi-gpio node-red-node-pi-neopixel node-red-node-ping node-red-node-pisrf node-red-node-random node-red-node-serialport node-red-node-smooth random-generator_node-red-contrib
+
+

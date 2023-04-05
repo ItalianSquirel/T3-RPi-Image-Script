@@ -1,8 +1,8 @@
 # update the package list
 sudo apt-get update
 
-# install pishrink
-sudo apt-get install pishrink -y
+# install NPM
+sudo apt-get install npm -y
 
 # install Thonny
 sudo apt-get install thonny -y
@@ -11,16 +11,13 @@ sudo apt-get install thonny -y
 sudo apt-get install python3 python3-pip -y
 
 # install NodeRed
-sudo npm install -g --unsafe-perm node-red -y
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 
 # install Scratch
 sudo apt-get install scratch -y
 
 # install RPi Imager
 sudo apt-get install rpi-imager -y
-
-# install NPM
-sudo apt-get install npm -y
 
 # install Geany
 sudo apt-get install geany -y

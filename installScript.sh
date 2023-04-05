@@ -63,7 +63,7 @@ echo "Chromium startup page changed to $url"
 #Add Chromium Bookmarks
 
 # add 3 websites to bookmarks bar in Chromium
-chromium-browser --no-first-run --no-default-browser-check --disable-restore-session-state "https://www.example.com" "https://www.google.com" "https://www.youtube.com"
+chromium-browser --no-first-run --no-default-browser-check --disable-restore-session-state "127.0.0.1:1880" "127.0.0.1:1880/ui" "t3alliance.org"
 
 # wait for Chromium to start
 sleep 5

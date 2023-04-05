@@ -1,21 +1,14 @@
 # update the package list
 sudo apt-get update
 
-# install VSCode
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
-sudo sh -c 'echo "deb [arch=armhf] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-sudo apt-get update
-sudo apt-get install code
-
 # install pishrink
-sudo apt-get install pishrink
+sudo apt-get install pishrink -y
 
 # install Thonny
-sudo apt-get install thonny
+sudo apt-get install thonny -y
 
 # install Python
-sudo apt-get install python3 python3-pip
+sudo apt-get install python3 python3-pip -y
 
 # install NodeRed
 sudo npm install -g --unsafe-perm node-red -y

@@ -8,7 +8,7 @@ sudo apt-get install thonny -y
 sudo apt-get install python3 python3-pip -y
 
 # Install Node.js
-sudo apt-get install nodejs -y
+sudo apt-get install node -y
 
 # Install npm
 sudo apt-get install npm -y
@@ -24,6 +24,8 @@ sudo apt-get install geany -y
 
 # install xdotool
 #sudo apt-get install xdotool -y
+
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered) --confirm-install --skip-pi
 
 # Install all Required NodeRed Pallet Nodes
 npm install node-red-contrib-bme280 node-red-contrib-camerapi node-red-contrib-cpu node-red-contrib-dht-sensor node-red-contrib-easybotics-air-quality node-red-contrib-easybotics-ina219-sensor node-red-contrib-easybotics-pca9685 node-red-contrib-easybotics-vl53l0x node-red-contrib-hostip node-red-contrib-oled node-red-contrib-play-audio node-red-contrib-thingspeak42 node-red-dashboard node-red-node-pi-gpio node-red-node-pi-neopixel node-red-node-ping node-red-node-pisrf node-red-node-random node-red-node-serialport node-red-node-smooth random-generator_node-red-contrib -y

@@ -8,10 +8,10 @@ sudo apt-get install thonny -y
 sudo apt-get install python3 python3-pip -y
 
 # Install Node.js
-sudo apt-get install -y nodejs
+sudo apt-get install nodejs -y
 
 # Install npm
-sudo apt-get install -y npm
+sudo apt-get install npm -y
 
 # install Scratch
 sudo apt-get install scratch -y

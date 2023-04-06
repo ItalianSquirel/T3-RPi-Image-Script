@@ -17,6 +17,9 @@ The install script will prompt you for your password (if needed) and then procee
 * NPM
 * and all the required NodeRed pallet nodes
 
+You will need to install NodeRed seperatly, it requires confirmation to install. You can install it with this command:
+```bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered) --confirm-install --skip-pi```
+
 Note that the installation process may take some time depending on your internet connection and the speed of your computer.
 
 ## Usage ##

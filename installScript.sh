@@ -13,8 +13,6 @@ sudo apt-get install -y nodejs
 # Install npm
 sudo apt-get install -y npm
 
-sudo apt install build-essential git curl
-
 # install Scratch
 sudo apt-get install scratch -y
 
